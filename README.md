@@ -41,3 +41,15 @@ Comparing to [the original version](https://github.com/chaoshxxu/virtual-judge/t
 - 点击 [这里](https://www.myblog.link/2017/01/09/VJudge-On-Windows-X64/) 访问非官方的Windows x64下的快速部署说明及资源下载。  
   其包含已编译的virtual-judge网站以及适用于Windows x64的JRE、Tomcat、MySQL、Redis等完整运行环境，可以在几分钟内完成部署。
 
+## 原版部署说明
+- 1.Set up your MySQL and import this *mysql.sql*
+- 2.Set up your Redis server
+- 3.Download *http_client.json* to your server disk, and configure it. It tells Virtual Judge how to visit remote OJs
+- 4.Register accounts in remote OJs
+- 5.Download *remote_accounts.json* to your server disk, and configure it using accounts in step 4
+- 6.Set up your Maven3 environment
+- 7.Clone the whole Virtual Judge project and build it by "mvn clean package"
+- 8.Deploy the WAR built in step 7 named "vjudge.war" to your Tomcat
+- 9.Start Tomcat then find the file named "config.properties" in unzipped "vjudge" directory in your Tomcat webapps directory. Configure all the parameters in it, especially including the absolute path of "http_client.json" and "remote_accounts.json".
+- 10.Restart Tomcat, then it should be OK.
+- 11.Contact GitHub API Training Shop Blog About
