@@ -10,7 +10,7 @@ public class ZTreningInfo {
     public static final RemoteOjInfo INFO = new RemoteOjInfo( //
             RemoteOj.ZTrening, //
             "Z-Trening", //
-            new HttpHost("www.z-trening.com") //
+            new HttpHost("www.codah.club") //
     );
 
     static {
