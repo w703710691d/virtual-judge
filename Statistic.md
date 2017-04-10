@@ -2,7 +2,7 @@
 
  - ACdream      *RUNNING*
  - Aizu         *RUNNING*
- - CFGym        *Submit Failed*
+ - CFGym        *SUBMIT ERROR*
  - CSU          *RUNNING*
  - CodeForces   *RUNNING*
  - FZU          *RUNNING*
@@ -12,12 +12,11 @@
  - LightOJ      *RUNNING* 
  - NBUT         *RUNNING*
  - POJ          *RUNNING*
- - SCU          *OnlineJudge Error*
+ - SCU          *SUBMIT ERROR*
  - SGU          *OnlineJudge Error*
  - SPOJ         *RUNNING*
  - Tyvj         *RUNNING*
- - UESTC        *OnlineJudge Error*
- - UESTC-old    *OnlineJudge Error*
+ - UESTC        *RUNNING*
  - URAL         *RUNNING*
  - UVA          *RUNNING*
  - UVALive      *RUNNING*
