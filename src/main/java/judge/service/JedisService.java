@@ -26,6 +26,7 @@ public class JedisService {
     public void init() {
         String redisAddress = (String) ApplicationContainer.serveletContext.getAttribute("redis.address");
         String redisPortStr = (String) ApplicationContainer.serveletContext.getAttribute("redis.port");
+        String redisPassword = (String) ApplicationContainer.serveletContext.getAttribute("redis.password");
 
         if (redisAddress == null || redisPortStr == null) {
             log.warn("No Redis config found! Redis is disabled.");
@@ -35,7 +36,7 @@ public class JedisService {
         int redisPort = Integer.parseInt(redisPortStr);
 
         try {
-            pool = new JedisPool(new JedisPoolConfig(), redisAddress, redisPort);
+            pool = new JedisPool(new JedisPoolConfig(), redisAddress, redisPort, 2000, redisPassword);
         } catch (Throwable t) {
             log.error("Redis isn't configured correctly. Redis is disabled.");
         }
