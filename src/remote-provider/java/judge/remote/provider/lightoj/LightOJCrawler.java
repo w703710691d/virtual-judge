@@ -61,6 +61,7 @@ public class LightOJCrawler implements Crawler {
             DedicatedHttpClient client = dedicatedHttpClientFactory.build(host, remoteAccount.getContext(), getOjInfo().defaultChaset);
             
             String problemUrl = host.toURI() + "/volume_showproblem.php?problem=" + problemId;
+            
             String pageContent = client.get(problemUrl, HttpStatusValidator.SC_OK).getBody();
             pageContent = HtmlHandleUtil.transformUrlToAbs(pageContent, problemUrl);
 

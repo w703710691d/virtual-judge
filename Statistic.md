@@ -1,0 +1,24 @@
+## OJ status
+
+ - ACdream      *RUNNING*
+ - Aizu         *RUNNING*
+ - CFGym        *SUBMIT ERROR*
+ - CSU          *RUNNING*
+ - CodeForces   *RUNNING*
+ - FZU          *RUNNING*
+ - HDU          *RUNNING*
+ - HUST         *RUNNING*
+ - HYSBZ        *RUNNING*
+ - LightOJ      *RUNNING* 
+ - NBUT         *RUNNING*
+ - POJ          *RUNNING*
+ - SCU          *SUBMIT ERROR*
+ - SGU          *OnlineJudge Error*
+ - SPOJ         *RUNNING*
+ - Tyvj         *RUNNING*
+ - UESTC        *RUNNING*
+ - URAL         *RUNNING*
+ - UVA          *RUNNING*
+ - UVALive      *RUNNING*
+ - Z-Trening    *Crawler Error*
+ - ZOJ          *RUNING*
